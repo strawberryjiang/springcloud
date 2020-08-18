@@ -10,6 +10,7 @@ public class DeptConsumer_DashBoard_App
 {
     public static void main(String[] args)
     {
+        System.out.println("fdasf");
         SpringApplication.run(DeptConsumer_DashBoard_App.class,args);
     }
 }
