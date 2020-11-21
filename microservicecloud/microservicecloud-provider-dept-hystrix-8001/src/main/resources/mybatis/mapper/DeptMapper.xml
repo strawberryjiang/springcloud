@@ -12,11 +12,11 @@
 
         select * from dept where deptno=#{deptno}
     </select>
-    <select id="findAll" resultType="com.atguigu.springcloud.entity.Dept">
+<!--    <select id="findAll" resultType="com.atguigu.springcloud.entity.Dept">-->
 
 
-        select * from dept;
-    </select>
+<!--        select * from dept;-->
+<!--    </select>-->
 
 
 </mapper>

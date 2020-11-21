@@ -9,8 +9,17 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+
+/**
+ * 消费者，不是传统的controller-->service-->dao
+ * <p>
+ * 通过RestTemplate调用生产者提供的服务
+ * RestTemplate提供了多种便捷访问远程HTTP服务的方法，是一种简单便捷的访问restful服务的模板类，
+ * 是spring提供的用于访问Rest服务的客户端模板类工具集
+ */
 @RestController
 public class DeptController_Consumer {
+//    private static final String REST_URL_PREFIX = "http://localhost:8001";
     private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
     @Autowired
